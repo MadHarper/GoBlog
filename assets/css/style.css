@@ -19,9 +19,13 @@
     font-size: 36px;
 }
 
+.navbar.navbar-inverse{
+    background-color: #481d04;
+}
+
 #navbar button{
-    background-color: #5e6664;
-    border-color: #5e6664;
+    background-color: #8a7e5b;
+    border-color: #8a7e5b;
 }
 
 #navbar .navbar-form.navbar-right{
