@@ -1,33 +1,197 @@
 #goblog{
-    width: 126px;
-    height: 39px;
-    border: 3px solid wheat;
-    border-radius: 2px 15px 5px 15px;
-    margin-top: 7px;
+    width: 150px;
+    height: 64px;
+    margin-top: 9px;
     margin-bottom: 6px;
     vertical-align: middle;
-    line-height: 1px;
-    font-size: 26px;
-    font-weight: 900;
+    line-height: 11px;
+    font-size: 24px;
+    font-weight: 800;
     font-style: oblique;
     font-family: Trebuchet MS;
-    color: wheat;
-    letter-spacing: -0.2rem;
+    background-image: url('../img/go_ico12.png');
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 550;
 }
 
-#goblog span{
-    font-size: 36px;
+#goblog_fon{
+    position: absolute;
+    transform: rotate(-0.04turn);
+    display: inline-block;
+    width: 157px;
+    height: 54px;
+    top: 12px;
+    background-color: #222;
+    z-index: 500;
+    font-weight: 700;
 }
 
-.navbar.navbar-inverse{
-    background-color: #481d04;
+#goblog_fon2 a{
+    text-decoration: none;
+}
+
+#goblog_fon .top_menu a{
+    color: #563a3a !important;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+
+#goblog_fon .top_menu2 a{
+    color: #3b507b !important;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+#goblog_fon .top_menu3 a{
+    color: #b86464 !important;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+#goblog_fon a:hover{
+    color: whitesmoke !important;
 }
 
 #navbar button{
-    background-color: #8a7e5b;
-    border-color: #8a7e5b;
+    background-color: #5e6664;
+    border-color: #5e6664;
 }
 
 #navbar .navbar-form.navbar-right{
     margin-top: 10px;
+}
+.top_menu{
+    margin-left: 20%;
+    height: 30px;
+    width: 210px;
+    background-color: #a48181;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 400;
+    top: 53px;
+    transition: all 0.2s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+.top_menu:hover{
+   left: -8px;
+}
+
+
+.top_menu2{
+    margin-left: 20%;
+    display: inline-block;
+    height: 30px;
+    width: 307px;
+    background-color: #7c8abc;
+    position: absolute;
+    left: -49px;
+    z-index: 380;
+    top: 81px;
+    transform: rotate(-0.01turn);
+    transition: all 0.2s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+.top_menu2:hover{
+    left: -56px;
+}
+
+
+.top_menu3{
+    margin-left: 20%;
+    display: inline-block;
+    height: 30px;
+    width: 307px;
+    background-color: #bcbcbc;
+    position: absolute;
+    left: 55px;
+    z-index: 380;
+    top: 107px;
+    transform: rotate(-0.01turn);
+    transition: all 0.2s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+.top_menu3:hover{
+    left: 46px;
+}
+
+.peacemaker{
+    margin-left: 20%;
+    display: inline-block;
+    height: 40px;
+    width: 264px;
+    background-color: #222;
+    position: absolute;
+    left: 92px;
+    z-index: 550;
+    top: 46px;
+    transform: rotate(0.04turn);
+    display: none;
+}
+
+.hippy{
+    margin-left: 20%;
+    display: inline-block;
+    height: 40px;
+    width: 264px;
+    background-color: #222;
+    position: absolute;
+    left: 106px;
+    z-index: 550;
+    top: 46px;
+}
+
+.hippy2{
+    margin-left: 20%;
+    display: inline-block;
+    height: 40px;
+    width: 192px;
+    background-color: #222;
+    position: absolute;
+    left: 185px;
+    top: 72px;
+    z-index: 360;
+}
+
+
+.jumbotron{
+    padding-top: 180px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}
+
+.btn{
+    border-radius: 0 !important;
+
 }
