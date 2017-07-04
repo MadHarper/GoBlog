@@ -1,0 +1,27 @@
+{{ define "write" }}
+
+{{ template "header" }}
+
+<div class="jumbotron">
+    <div class="container">
+        <h4>Добавить новую статью</h4>
+    </div>
+</div>
+
+<div class="container">
+    <form method="POST">
+        <div class="form-group">
+            <label for="title">Заголовок</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Название">
+        </div>
+        <div class="form-group">
+            <label for="content">Текст</label>
+            <textarea class="form-control" id="content" name="content" rows="6"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+
+{{ template "footer" }}
+
+{{ end }}
